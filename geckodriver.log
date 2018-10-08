@@ -104,3 +104,24 @@ stener because no navigation has been detected
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1538998976444	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Literal\\AppData\\Local\\Temp\\rust_mozprofile.SzSkupvcvP1C"
+1538998980399	Marionette	INFO	Listening on port 60360
+1538998980433	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538998980468	Marionette	DEBUG	[6442450945] Frame script loaded
+1538998980471	Marionette	DEBUG	[6442450945] Frame script registered
+1538998980501	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538998981728	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538998984284	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://vk.com/
+1538998987001	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://vk.com/
+1538998987257	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538998987518	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538998987780	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538998989033	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450967
+1538998989070	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 1152, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2148, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2148, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1538999001526	Marionette	INFO	Stopped listening on port 60360
+[GPU 7788, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
