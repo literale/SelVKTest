@@ -45,6 +45,13 @@ if driver.current_url == "https://vk.com/":
 else:
     print("Мы сменили страницу!")
 
+# Проверяем, на странице ошибки ли мы
+try:
+    log_mes_btn = driver.find_element_by_id('login_message')
+    print("Мы на странице ошибки!")
+except NoSuchElementException:
+    print("Мы залогинились?")
+
 # ищем кнопку регистрации и нажимаем
 log_btn = driver.find_element_by_id('login_reg_button')
 log_btn.click()

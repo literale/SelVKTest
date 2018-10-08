@@ -125,3 +125,41 @@ stener because no navigation has been detected
 [Child 7480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 1538999001526	Marionette	INFO	Stopped listening on port 60360
 [GPU 7788, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539001977487	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Literal\\AppData\\Local\\Temp\\rust_mozprofile.6bm2drDNUUea"
+1539001981435	Marionette	INFO	Listening on port 62243
+1539001981522	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539001981550	Marionette	DEBUG	[6442450945] Frame script loaded
+1539001981552	Marionette	DEBUG	[6442450945] Frame script registered
+1539001981724	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539001982882	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539001985655	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://vk.com/
+1539001987939	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://vk.com/
+1539001988206	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539001988551	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539001988886	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539001990204	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450967
+1539001990300	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 6468, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8320, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8320, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13388, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13388, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6468, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539002058191	Marionette	INFO	Stopped listening on port 62243
+[GPU 12180, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539002362997	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Literal\\AppData\\Local\\Temp\\rust_mozprofile.HXr5BDJhasdA"
+1539002368431	Marionette	INFO	Listening on port 62511
+1539002368676	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539002368782	Marionette	DEBUG	[6442450945] Frame script loaded
+1539002368784	Marionette	DEBUG	[6442450945] Frame script registered
+1539002368815	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539002370092	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539002373385	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://vk.com/
+1539002374758	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://vk.com/
+1539002375013	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539002375449	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539002375746	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539002377452	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450967
+1539002377544	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
