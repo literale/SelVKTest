@@ -5,12 +5,13 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 driver = webdriver.Firefox(executable_path=r"D:\\gecodrive\\geckodriver.exe")
+
 # заходим в вк
 driver.get("https://vk.com/")
 # Ищем и кликаем на кнопку логина
 log_btn = driver.find_element_by_id('index_login_button')
-
 log_btn.click()
+
 # Убеждаемся, что не залогинились (можно иначе)
 try:
     log_btn = driver.find_element_by_id('index_login_button')
@@ -18,23 +19,21 @@ try:
 except NoSuchElementException:
     print("Мы залогинились!")
 
-# Вводим логин
+# Вводим логин и пытаемся залогиниться
 input_em = driver.find_element_by_id('index_email')
 input_em.send_keys('Test@yandex.ru')
-
 log_btn.click()
-# Убеждаемся, что не залогинились (можно иначе)
 
+# Убеждаемся, что не залогинились (можно иначе)
 try:
     log_btn = driver.find_element_by_id('index_login_button')
     print("Мы  не залогинились!")
 except NoSuchElementException:
     print("Мы залогинились!")
 
-# вводим пароль
+# вводим неверный пароль и пытаемся залогиниться
 input_pass = driver.find_element_by_id('index_pass')
 input_pass.send_keys('123456T')
-
 log_btn.click()
 
 # Убеждаемся что на другой странице
