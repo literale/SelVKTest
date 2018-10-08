@@ -13,6 +13,7 @@ log_btn.click()
 # TODO убедиться, что мы не залогинились. Сделано
 try:
     log_btn = driver.find_element_by_id('index_login_button')
+    print("Мы  не залогинились!")
 except NoSuchElementException:
     print("Мы залогинились!")
 
@@ -25,6 +26,7 @@ log_btn.click()
 
 try:
     log_btn = driver.find_element_by_id('index_login_button')
+    print("Мы  не залогинились!")
 except NoSuchElementException:
     print("Мы залогинились!")
 
@@ -32,11 +34,28 @@ input_pass = driver.find_element_by_id('index_pass')
 input_pass.send_keys('123456T')
 
 log_btn.click()
+
 # TODO убедиться, мы на другой странице
 wait_for_element = WebDriverWait(driver, 10).until(
         EC.visibility_of_element_located((By.ID, "login_reg_button"))
     )
+if driver.current_url == "https://vk.com/":
+    print("Мы Не сменили страницу!")
+else:
+    print("Мы сменили страницу!")
 
 log_btn = driver.find_element_by_id('login_reg_button')
 log_btn.click()
+
 # TODO убедиться, что мы вновь на первой странице
+wait_for_element = WebDriverWait(driver, 10).until(
+        EC.visibility_of_element_located((By.ID, "ij_submit"))
+    )
+
+if driver.current_url == "https://vk.com/":
+    print("Мы на первой странице!")
+elif driver.current_url == "https://vk.com/join":
+    print("Мы не на первой странице, но на ее аналоге.")
+else:
+    print("Мы не на первой странице! :с")
+
