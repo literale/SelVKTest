@@ -1,0 +1,10 @@
+1538997818352	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Literal\\AppData\\Local\\Temp\\rust_mozprofile.jhv5QQLOPiQf"
+1538997822823	Marionette	INFO	Listening on port 59361
+1538997823338	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538997823416	Marionette	DEBUG	[6442450945] Frame script loaded
+1538997823418	Marionette	DEBUG	[6442450945] Frame script registered
+1538997823456	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538997824056	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538997826829	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://vk.com/
+1538997828448	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://vk.com/
+1538997828686	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
