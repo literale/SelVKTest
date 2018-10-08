@@ -21,7 +21,7 @@ except NoSuchElementException:
 
 # Вводим логин и пытаемся залогиниться
 input_em = driver.find_element_by_id('index_email')
-input_em.send_keys('Test@yandex.ru')
+input_em.send_keys('Tests@yandex.ru')
 log_btn.click()
 
 # Убеждаемся, что не залогинились (можно иначе)
